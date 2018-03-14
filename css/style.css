@@ -113,7 +113,8 @@ li {
   box-sizing: border-box;
   z-index: 100; }
   .nav__menu {
-    position: relative; }
+    position: relative;
+    cursor: pointer; }
     .nav__menu .nav__icon {
       display: inline-block;
       width: 20px;
