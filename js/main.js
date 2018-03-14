@@ -24,10 +24,10 @@ const is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 if (is_chrome) {
    let sectionTitle = document.querySelectorAll('.section__title');
    sectionTitle.forEach(function(item){
-     item.style.backgroundColor = '#ffdaba';
+     item.style.backgroundColor = '#fff3dc';
    });
    let projectsField = document.querySelectorAll('.projects__field');
    projectsField.forEach(function(item){
-     item.style.backgroundColor = '#ffdaba';
+     item.style.backgroundColor = '#fff3dc';
    });
 }
