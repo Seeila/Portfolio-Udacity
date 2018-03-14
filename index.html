@@ -1,155 +1,164 @@
 <!doctype html>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <title>Portfolio</title>
-      <meta name="description" content="Portfolio of Sarah Hick, Graphic Designer and Front-End Developer looking for a new opportunity">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <link rel="stylesheet" href="css/normalize.css">
-      <link rel="stylesheet" href="css/style.css">
-      <script src="js/picturefill.js"></script>
-   </head>
-   <body>
-     <!--[if IE 11]>
+<head>
+   <meta charset="utf-8">
+   <title>Portfolio</title>
+   <meta name="description" content="Portfolio of Sarah Hick, Graphic Designer and Front-End Developer looking for a new opportunity">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="js/picturefill.js"></script>
+</head>
+
+<body>
+   <!--[if IE 11]>
          <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://microsoft-edge.en.softonic.com/download">upgrade your browser</a> to improve your experience.</p>
      <![endif]-->
 
-      <nav class="nav">
-         <p class="nav__logo"><a href="#home">Sarah Hick</a></p>
+   <nav class="nav">
+      <p class="nav__logo"><a href="#home">Sarah Hick</a></p>
 
-         <div class="nav__menu">
-            <div class="nav__icon">
-               <span></span>
-               <span></span>
-               <span></span>
+      <div class="nav__menu">
+         <div class="nav__icon">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <p>
+            Menu
+         </p>
+      </div>
+
+      <div class="nav__projects">
+         <a href="#projects">View Projects</a>
+      </div>
+   </nav>
+
+   <nav class="nav__open">
+      <div class="nav__open__close"></div>
+      <div class="nav__open__links">
+         <a href="#home">Home</a>
+         <a href="#projects">Works</a>
+         <a href="#contact">Contact</a>
+      </div>
+   </nav>
+   <!--nav__open-->
+
+   <section class="main">
+      <header class="home" id="home">
+         <h2 class="title__look">Always look at the <del>bright</del></h2>
+         <h1 class="title__weasley">Weasley</h1>
+         <h2 class="title__side">side<br/>of</h2>
+         <h1 class="title__life">Life</h1>
+         <div class="__slide">
+            <div class="__container">
+               <picture>
+                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+                  <source media="(max-width: 600px)" srcset="img/m-slide1.jpg 1x, img/2x/m-slide1.jpg 2x">
+                  <source media="(max-width: 1025px)" srcset="img/t-slide1.jpg 1x, img/2x/t-slide1.jpg 2x">
+                  <source media="(min-width: 1026px)" srcset="img/slide1.jpg 1x, img/2x/slide1.jpg 2x">
+                  <!--[if IE 9]></video><![endif]-->
+                  <img src="img/slide1.jpg" alt="Photo of an Orange architecure by Alessio Lin on Unsplash" class="__image" id="slideImg1">
+               </picture>
+               <picture>
+                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+                  <source media="(max-width: 600px)" srcset="img/m-slide2.jpg 1x, img/2x/m-slide2.jpg 2x">
+                  <source media="(max-width: 1025px)" srcset="img/t-slide2.jpg 1x, img/2x/t-slide2.jpg 2x">
+                  <source media="(min-width: 1026px)" srcset="img/slide2.jpg 1x, img/2x/slide2.jpg 2x">
+                  <!--[if IE 9]></video><![endif]-->
+                  <img src="img/slide2.jpg" alt="Photo of a person on staircase by alan King on Unsplash" class="__image" id="slideImg2">
+               </picture>
+               <picture>
+                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+                  <source media="(max-width: 600px)" srcset="img/m-slide3.jpg 1x, img/2x/m-slide3.jpg 2x">
+                  <source media="(max-width: 1025px)" srcset="img/t-slide3.jpg 1x, img/2x/t-slide3.jpg 2x">
+                  <source media="(min-width: 1026px)" srcset="img/slide3.jpg 1x, img/2x/slide3.jpg 2x">
+                  <!--[if IE 9]></video><![endif]-->
+                  <img src="img/slide3.jpg" alt="Photo of an abbye architecure by Hartmut Tobies on Unsplash" class="__image" id="slideImg3">
+               </picture>
             </div>
-            <p>
-               Menu
-            </p>
          </div>
+         <a href="" class="btn --contact">Contact me !</a>
+         <a href="" class="btn --me">Who am I ?</a>
+      </header>
 
-         <div class="nav__projects">
-            <a href="#projects">View Projects</a>
-         </div>
-      </nav>
+      <section class="projects" id="projects">
 
-      <nav class="nav__open">
-         <div class="nav__open__close"></div>
-         <div class="nav__open__links">
-            <a href="#home">Home</a>
-            <a href="#projects">Works</a>
-            <a href="#contact">Contact</a>
-         </div>
-      </nav><!--nav__open-->
+         <section class="__first">
+            <h2 class="section__title">Works</h2>
+            <h3 class="projects__field">Web</h3>
+            <h4 class="projects__title">Pixel Art <span class="block">Maker</span></h4>
+            <a href="https://codepen.io/Seeila/pen/eyGXxz" target="_blank" class="projects__thumb">
+               <picture>
+                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+                  <source media="(max-width: 600px)" srcset="img/m-pixel_art.jpg 1x, img/2x/m-pixel_art.jpg 2x">
+                  <source media="(max-width: 1025px)" srcset="img/t-pixel_art.jpg 1x, img/2x/t-pixel_art.jpg 2x">
+                  <source media="(min-width: 1026px)" srcset="img/pixel_art.jpg 1x, img/2x/pixel_art.jpg 2x">
+                  <!--[if IE 9]></video><![endif]-->
+                  <img src="img/pixel_art.jpg" alt="My Pixel Art Project" class="projects__img">
+               </picture>
+            </a>
+            <a href="https://codepen.io/Seeila/pen/eyGXxz" target="_blank" class="btn projects__btn">View Project</a>
+         </section>
+         <!--web-->
 
-      <section class="main">
-         <header class="home"  id="home">
-            <h2 class="title__look">Always look at the <del>bright</del></h2>
-            <h1 class="title__weasley">Weasley</h1>
-            <h2 class="title__side">side<br/>of</h2>
-            <h1 class="title__life">Life</h1>
-            <div class="__slide">
-               <div class="__container">
-                  <picture>
-                     <!--[if IE 9]><video style="display: none;"><![endif]-->
-                     <source media="(max-width: 600px)" srcset="img/m-slide1.jpg 1x, img/2x/m-slide1.jpg 2x">
-                     <source media="(max-width: 1025px)" srcset="img/t-slide1.jpg 1x, img/2x/t-slide1.jpg 2x">
-                     <source media="(min-width: 1026px)" srcset="img/slide1.jpg 1x, img/2x/slide1.jpg 2x">
-                     <!--[if IE 9]></video><![endif]-->
-                     <img src="img/slide1.jpg" alt="Photo of an Orange architecure by Alessio Lin on Unsplash"  class="__image" id="slideImg1">
-                  </picture>
-                  <picture>
-                     <!--[if IE 9]><video style="display: none;"><![endif]-->
-                     <source media="(max-width: 600px)" srcset="img/m-slide2.jpg 1x, img/2x/m-slide2.jpg 2x">
-                     <source media="(max-width: 1025px)" srcset="img/t-slide2.jpg 1x, img/2x/t-slide2.jpg 2x">
-                     <source media="(min-width: 1026px)" srcset="img/slide2.jpg 1x, img/2x/slide2.jpg 2x">
-                     <!--[if IE 9]></video><![endif]-->
-                     <img src="img/slide2.jpg" alt="Photo of a person on staircase by alan King on Unsplash"  class="__image" id="slideImg2">
-                  </picture>
-                  <picture>
-                     <!--[if IE 9]><video style="display: none;"><![endif]-->
-                     <source media="(max-width: 600px)" srcset="img/m-slide3.jpg 1x, img/2x/m-slide3.jpg 2x">
-                     <source media="(max-width: 1025px)" srcset="img/t-slide3.jpg 1x, img/2x/t-slide3.jpg 2x">
-                     <source media="(min-width: 1026px)" srcset="img/slide3.jpg 1x, img/2x/slide3.jpg 2x">
-                     <!--[if IE 9]></video><![endif]-->
-                     <img src="img/slide3.jpg" alt="Photo of an abbye architecure by Hartmut Tobies on Unsplash"  class="__image" id="slideImg3">
-                  </picture>
+         <section class="__second">
+            <h4 class="projects__title"><span class="block">Animal </span>Trading Card</h4>
+            <a href="https://codepen.io/Seeila/pen/eevyge" target="_blank" class="projects__thumb">
+               <picture>
+                  <!--[if IE 9]><video style="display: none;"><![endif]-->
+                  <source media="(max-width: 600px)" srcset="img/m-animal_card.jpg 1x, img/2x/m-animal_card.jpg 2x">
+                  <source media="(max-width: 1025px)" srcset="img/t-animal_card.jpg 1x, img/2x/t-animal_card.jpg 2x">
+                  <source media="(min-width: 1026px)" srcset="img/animal_card.jpg 1x, img/2x/img/animal_card.jpg 2x">
+                  <!--[if IE 9]></video><![endif]-->
+                  <img src="img/animal_card.jpg" alt="My Pixel Art Project" class="projects__img">
+               </picture>
+            </a>
+            <a href="https://codepen.io/Seeila/pen/eevyge" target="_blank" class="btn projects__btn">View Project</a>
+         </section>
+         <!--web-->
+
+      </section>
+      <!--projects-->
+
+      <section class="contact" id="contact">
+
+         <h2 class="section__title">Contact</h2>
+         <div class="contact__content">
+            <h3 class="contact__question">Any Question ?</h3>
+            <p class="contact__subquestion">Don't hesitate to contact me !</p>
+            <div class="contact__infos">
+               <div class="contact__info">
+                  <p>Adress</p>
+                  <p>
+                     Au village, 27<br/> 6717 Tontelange
+                  </p>
+               </div>
+               <div class="contact__info">
+                  <p>Contact</p>
+                  <p>
+                     sarah.hick32@gmail.com<br/> +32 499 73 83 58
+                  </p>
                </div>
             </div>
-            <a href="" class="btn --contact">Contact me !</a>
-            <a href="" class="btn --me">Who am I ?</a>
-         </header>
+            <!--contact__infos-->
+         </div>
+         <!--contact__infos-->
+      </section>
+      <!--contact-->
 
-         <section class="projects" id="projects">
+   </section>
+   <!--main-->
 
-            <section class="__first">
-               <h2 class="section__title">Works</h2>
-               <h3 class="projects__field">Web</h3>
-               <h4 class="projects__title">Pixel Art <span class="block">Maker</span></h4>
-               <a href="https://codepen.io/Seeila/pen/eyGXxz" target="_blank" class="projects__thumb">
-                  <picture>
-                     <!--[if IE 9]><video style="display: none;"><![endif]-->
-                     <source media="(max-width: 600px)" srcset="img/m-pixel_art.jpg 1x, img/2x/m-pixel_art.jpg 2x">
-                     <source media="(max-width: 1025px)" srcset="img/t-pixel_art.jpg 1x, img/2x/t-pixel_art.jpg 2x">
-                     <source media="(min-width: 1026px)" srcset="img/pixel_art.jpg 1x, img/2x/pixel_art.jpg 2x">
-                     <!--[if IE 9]></video><![endif]-->
-                     <img src="img/pixel_art.jpg" alt="My Pixel Art Project"  class="projects__img" >
-                  </picture>
-               </a>
-               <a href="https://codepen.io/Seeila/pen/eyGXxz" target="_blank" class="btn projects__btn">View Project</a>
-            </section>   <!--web-->
+   <footer>
+      <p>
+         Copyright : Sarah Hick - 2018
+      </p>
+   </footer>
 
-            <section class="__second">
-               <h4 class="projects__title"><span class="block">Animal </span>Trading Card</h4>
-               <a href="https://codepen.io/Seeila/pen/eevyge" target="_blank" class="projects__thumb">
-                  <picture>
-                     <!--[if IE 9]><video style="display: none;"><![endif]-->
-                     <source media="(max-width: 600px)" srcset="img/m-animal_card.jpg 1x, img/2x/m-animal_card.jpg 2x">
-                     <source media="(max-width: 1025px)" srcset="img/t-animal_card.jpg 1x, img/2x/t-animal_card.jpg 2x">
-                     <source media="(min-width: 1026px)" srcset="img/animal_card.jpg 1x, img/2x/img/animal_card.jpg 2x">
-                     <!--[if IE 9]></video><![endif]-->
-                     <img src="img/animal_card.jpg" alt="My Pixel Art Project"  class="projects__img" >
-                  </picture>
-               </a>
-               <a href="https://codepen.io/Seeila/pen/eevyge" target="_blank"  class="btn projects__btn">View Project</a>
-            </section><!--web-->
+   <script src="js/main.js"></script>
+</body>
 
-         </section><!--projects-->
-
-         <section class="contact" id="contact">
-
-            <h2 class="section__title">Contact</h2>
-            <div class="contact__content">
-               <h3 class="contact__question">Any Question ?</h3>
-               <p class="contact__subquestion">Don't hesitate to contact me !</p>
-               <div class="contact__infos">
-                  <div class="contact__info">
-                     <p>Adress</p>
-                     <p>
-                        Au village, 27<br/>
-                        6717 Tontelange
-                     </p>
-                  </div>
-                  <div class="contact__info">
-                     <p>Contact</p>
-                     <p>
-                        sarah.hick32@gmail.com<br/>
-                        +32 499 73 83 58
-                     </p>
-                  </div>
-               </div><!--contact__infos-->
-            </div><!--contact__infos-->
-         </section><!--contact-->
-
-      </section><!--main-->
-
-      <footer>
-         <p>
-            Copyright : Sarah Hick - 2018
-         </p>
-      </footer>
-
-      <script src="js/main.js"></script>
-   </body>
 </html>
